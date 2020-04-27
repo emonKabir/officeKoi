@@ -15,19 +15,10 @@ module.exports = (db, dataTypes) => {
       password: {
         type: dataTypes.STRING
       },
-      token : {
-        type: dataTypes.STRING
-      },
       user_type : {
         type: dataTypes.STRING
       },
       user_photo : {
-        type: dataTypes.STRING
-      },
-      user_location:{
-        type:dataTypes.STRING
-      },
-      user_address: {
         type: dataTypes.STRING
       },
       status: {
